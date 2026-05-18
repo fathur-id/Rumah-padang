@@ -10,6 +10,10 @@
 </head>
 <body>
 
+    <div class="custom-cursor"></div>
+
+    <button id="backToTop" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
@@ -17,10 +21,10 @@
                 <span class="logo-text">Rumah Padang <span>Nusantara</span></span>
             </a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#features">Ciri Khas</a></li>
-                <li><a href="#menu">Menu Populer</a></li>
-                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#home" class="nav-item active">Beranda</a></li>
+                <li><a href="#features" class="nav-item">Ciri Khas</a></li>
+                <li><a href="#menu" class="nav-item">Menu Populer</a></li>
+                <li><a href="#about" class="nav-item">Tentang Kami</a></li>
             </ul>
             <div class="menu-toggle" id="mobileMenu">
                 <i class="fa-solid fa-bars"></i>
@@ -31,15 +35,15 @@
     <header class="hero" id="home">
         <div class="hero-container">
             <div class="hero-content">
-                <span class="hero-tagline">Authentic Minangkabau Cuisine</span>
+                <span class="hero-tagline"><span class="typing-text"></span></span>
                 <h1>Tambuah Ciek!<br>Rasakan Kemegahan Cita Rasa Minang</h1>
                 <p>Dibuat dengan rempah pilihan warisan leluhur, menghadirkan keotentikan kuliner Nusantara langsung ke meja Anda.</p>
                 <div class="hero-buttons">
-                    <a href="#menu" class="btn btn-primary">Eksplorasi Rasa</a>
+                    <a href="#menu" class="btn btn-primary animate-pulse">Eksplorasi Rasa</a>
                     <a href="#about" class="btn btn-secondary">Cerita Kami</a>
                 </div>
             </div>
-            <div class="hero-img">
+            <div class="hero-img project-tilt">
                 <div class="img-wrapper">
                     <img src="https://itsugadesign.com/themes/jawa-padang/rumah-padang.png" alt="Ilustrasi Rumah Padang">
                 </div>
@@ -82,7 +86,7 @@
             <span class="section-tag">Hidangan Utama</span>
             <h2 class="section-title">Menu Paling Populer</h2>
             <div class="menu-grid">
-                <div class="menu-item">
+                <div class="menu-item project-tilt">
                     <div class="menu-img-box">
                         <img src="https://katasumbar.com/wp-content/uploads/2023/07/Seporsi-Nasi-Padang.jpg" alt="Nasi Padang Spesial">
                         <span class="badge">Terlaris</span>
@@ -95,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-item">
+                <div class="menu-item project-tilt">
                     <div class="menu-img-box">
                         <img src="https://asset.kompas.com/crops/cV74op_Zuu_g-ppdAP0KJAsRDdU=/63x566:630x944/1200x800/data/photo/2019/11/06/5dc1aaf4c9633.png" alt="Rendang Daging Otentik">
                         <span class="badge">Signature</span>
@@ -108,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu-item">
+                <div class="menu-item project-tilt">
                     <div class="menu-img-box">
                         <img src="https://cdn.idntimes.com/content-images/community/2024/05/snapinstaapp-387664219-852883373112946-7280368966829214142-n-1080-b048edd0f34557038f9914b5d6eb8c87.jpg" alt="Dendeng Batokok">
                     </div>
@@ -133,16 +137,16 @@
                     <p>Berdiri dengan komitmen menjaga keaslian resep turun-temurun, kami percaya bahwa makanan adalah jembatan budaya. Terinspirasi dari filosofi Rumah Gadang, setiap sudut restoran kami didedikasikan untuk melestarikan tradisi kuliner Minang yang kaya akan sejarah dan keramahan.</p>
                     <div class="about-meta">
                         <div class="meta-item">
-                            <h4>100%</h4>
+                            <h4 class="counter" data-target="100">0</h4>
                             <p>Halal & Higienis</p>
                         </div>
                         <div class="meta-item">
-                            <h4>30+</h4>
-                            <p>Rempah Rahasia</p>
+                            <h4 class="counter" data-target="30">0</h4>
+                            <p>Rempah Pilihan</p>
                         </div>
                     </div>
                 </div>
-                <div class="about-img">
+                <div class="about-img project-tilt">
                     <img src="https://propertyklik.com/tips-properti/wp-content/uploads/2024/07/rumah-adat-padang-2.jpg" alt="Rumah Adat Padang">
                 </div>
             </div>
